@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: Verdana, Arial, sans-serif;
+    background: #eee4e0;
+}
+
+.main {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.header {
+    font-family: Century Gothic;
+    font-style: italic;
+    font-size: 40px;
+    margin: 40px 0 20px;
+    text-align: center;
+}
+
+.menu_container {
+    border-bottom: 2px #000 solid;
+    display: flex;
+    padding-bottom: 2px;
+}
+
+.menu_container .menu {
+    margin: 0 auto;
+}
+
+.menu_container .menu a {
+    display: inline-block;
+    padding: 0 12px;
+    line-height: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #333;
+}
+
+.menu_container .menu a:hover,
+.menu_container .menu a.selected {
+    color: #7a1371;
+}
+
+.promo {
+    position: relative;
+    margin-top: 8px;
+}
+
+.promo img {
+    width: 100%;
+}
+
+.promo .round {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    background: #a5b07d;
+    width: 240px;
+    height: 240px;
+    margin-top: -120px;
+    border-radius: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.promo .round h3 {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.promo .round h4 {
+    font-size: 55px;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+}
+
+.promo .round a {
+    font-size: 21px;
+    color: #523d48;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.promo2 {
+    display: flex;
+    align-items: center;
+    margin: 15px -9px 0;
+}
+
+.promo2 .item {
+    height: 320px;
+    width: 33.33%;
+    position: relative;
+    padding: 0 9px;
+}
+
+.promo2 .item .wrap {
+    height: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.promo2 .item .wrap h3 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: 2px auto 260px;
+    font-size: 29px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.promo2 .item .wrap img {
+    height: 250px;
+    width: 250px;
+}
+
+.promo2 .item .wrap h2 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: 270px auto 2px;
+    font-size: 27px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.promo2 .item .wrap2 {
+    height: 100%;
+    background: #cfb8bf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo2 .item .wrap2 h4 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto 120px;
+    font-size: 27px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+}
+
+.promo2 .item .wrap2 h2 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 2px;
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+}
+
+.promo2 .item .wrap3 {
+    height: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo2 .item .wrap3 h3 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto 75px;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.promo3 .items {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 30px 15px 30px;
+}
+
+.promo3 h2 {
+    text-align: center;
+    margin: 40px 0 0;
+    font-size: 40px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.promo3 .item2 {
+    width: 25%;
+    box-sizing: border-box;
+    position: relative;
+    padding: 0 10px;
+}
+
+.promo3 .item2 .box {
+    height: 210px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+
+.promo3 .item2 .box img {
+    width: 210px;
+    height: 210px;
+}
+
+.promo3 .item2 .box img:hover {
+    transform: scale(1.4);
+}
+
+.promo3 .item2 .price {
+    margin: 5px auto 25px;
+    text-align: center;
+}
+
+.promo3 .item2 .price .old {
+    color: #999;
+    padding-right: 7px;
+    text-decoration: line-through;
+}
+
+.promo3 .item2 .title {
+    margin: 5px auto 5px;
+    text-align: center;
+}
+
+.footer {
+    color: #fff;
+    background: #8d7576;
+    min-width: 980px;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+.form {
+    padding: 90px 0;
+    width: calc(100% - 272px);
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+.form h1 {
+    text-align: center;
+    color: #8d7576;
+    font-family: 'Roboto Slab', serif;
+    font-size: 45px;
+}
+
+.form h2 {
+    text-align: center;
+    color: #8d7576;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+.form input,
+.form textarea {
+    font-size: 14px;
+    font-family: Verdana, Arial, sans-serif;
+    color: black;
+}
+
+.form input[type="text"] {
+    display: block;
+    border: 1px black solid;
+    padding: 7px 14px;
+    margin-top: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #cfb8bf;
+}
+
+.form textarea {
+    display: block;
+    border: 1px black solid;
+    padding: 7px 14px;
+    height: 72px;
+    resize: none;
+    margin-top: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    background: #cfb8bf;
+}
+
+.form input[type="submit"] {
+    display: block;
+    padding: 7px 24px;
+    margin: 30px 0 0 auto;
+    border: none;
+    background: #251e1b;
+    color: white;
+}
+
+.promo4 {
+    display: flex;
+    align-items: center;
+    margin: 15px -9px 0;
+}
+
+.promo4 .item {
+    height: 133px;
+    width: 100%;
+    position: relative;
+    padding: 0 9px;
+}
+
+.promo4 .item .wrap {
+    height: 100%;
+    background: #a5b07d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+}
+
+.promo5 {
+    display: flex;
+    align-items: center;
+    margin: 15px -9px 0;
+}
+
+.promo5 .item {
+    height: 133px;
+    width: 100%;
+    position: relative;
+    padding: 0 9px;
+}
+
+.promo5 .item .wrap {
+    height: 100%;
+    background: #cfb8bf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+}

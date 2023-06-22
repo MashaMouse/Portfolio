@@ -1,0 +1,1280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url(Poppins-Bold.ttf);
+}
+
+body {
+    background: #fff;
+}
+
+.main {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+header {
+    height: 970px;
+}
+
+.header_container{
+    max-width: 1718px;
+    margin: 0 auto;
+    max-height: 1079px;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 46px;
+}
+
+.header_container .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'PoppinsBold';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+    
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    
+    color: #000000;
+
+}
+
+.header_container .logo_name {
+    padding: 0 10px 0 12px;
+}
+
+.header_container .menu {
+    display: flex;
+    column-gap: 60px;
+    
+}
+
+.header_container .menu_link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    
+    color: #242323
+}
+
+.menu__menu_button {
+    width: 134px;
+    height: 62px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    align-items: center;
+    color: #FEFEFE;
+
+    background: #000000;
+    border-radius: 7px;
+
+}
+
+button {
+    border: none;
+}
+
+.menu__menu_button:hover {
+    cursor: pointer;
+}
+
+.header_clothes__button__button_chop:hover {
+    cursor:pointer;
+}
+
+.header_container__header_clothes {
+    background: url(images/Group\ 84.svg) top center;
+    width: 100%;
+    margin: 56px auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 68px;
+}
+
+.header_clothes__head_text {
+    font-family: 'PoppinsBold';
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 120px;
+width: 474px;
+
+/* or 125% */
+
+color: #000000;
+}
+
+.header_clothes__body_text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 48px;
+letter-spacing: -0.05em;
+
+color: #191818;
+}
+.header_container__left {
+    padding-left: 119px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+
+.header_clothes__button__button_chop {
+    width: 221px;
+    height: 82px;
+    background: #000;
+    border-radius: 10px;
+    
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+
+/* identical to box height */
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
+}
+
+.header_clothes__button_img {
+    padding-right: 34px;
+}
+
+.main_brands {
+    background: #EBD96B;
+}
+
+.main_brands__brands {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 61px 0 54px 0;
+    width: 1700px;
+    margin: 61px auto 0;
+}
+
+.main_brands__brands .main_brands__brands__brand {
+    width: 16.66%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+.new_arrivals {
+    width: 1638px;
+    margin: 69px auto;
+}
+
+.new_arrivals__columns {
+    margin: 118px auto;
+    max-width: 1638px;
+}
+
+.rectangle .new_arrivals__text {
+    position: relative;
+}
+
+.rectangle .new_arrivals__text::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 186px;
+    background: #EBD96B;
+    border-radius: 24px 0 24px 0;
+    right: -8px;
+    top:-24px;
+}
+
+.new_arrivals__text_text {
+    font-family: 'PoppinsBold';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 50px;
+
+/* or 104% */
+letter-spacing: 0.06em;
+
+color: #000000;
+}
+
+
+.new_arrivals__columns__column {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.new_arrivals__img {
+    width: 33.3%;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.column__head_text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 50px;
+
+/* or 156% */
+letter-spacing: -0.04em;
+
+color: #191919;
+}
+
+.column__body_text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 50px;
+
+/* or 208% */
+letter-spacing: -0.04em;
+
+color: #7F7F7F;
+}
+
+.columns__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 28px;
+}
+
+.img__text {
+    padding-right: 10%;
+}
+
+.young {
+    width: 1720px;
+    margin: 69px auto;
+}
+
+.young_favourite__columns {
+    margin: 118px auto;
+    max-width: 1720px;
+}
+
+.rectangle .new_arrivals__text {
+    position: relative;
+}
+
+.rectangle .new_arrivals__text::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 186px;
+    background: #EBD96B;
+    border-radius: 24px 0 24px 0;
+    right: -8px;
+    top:-24px;
+}
+
+.young_favourite__text_text {
+    font-family: 'PoppinsBold';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 50px;
+
+/* or 104% */
+letter-spacing: 0.06em;
+
+color: #000000;
+}
+
+
+.young_favourite__columns__column {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.young_favourite__img {
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 10px;
+}
+
+.young_favourite__column__head_text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 50px;
+
+/* or 156% */
+letter-spacing: -0.04em;
+
+color: #191919;
+}
+
+.young_favourite__column__body_text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 50px;
+
+/* or 208% */
+letter-spacing: -0.04em;
+
+color: #7F7F7F;
+}
+
+.young_favourite__columns__text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 28px;
+}
+
+.young_favourite__img__text {
+    padding-right: 5%;
+}
+
+.banner {
+    width: 100%;
+    background: url(images/background_banner.png) top center;
+}
+
+.banner_infirmation {
+    max-width: 84%;
+    margin: 193px auto;
+    display: flex;
+    justify-content: end;
+    padding-top: 128px;
+    padding-bottom: 155px;
+
+}
+
+.banner_information_text__head_text {
+    font-family: 'PoppinsBold';
+font-style: normal;
+font-weight: 900;
+font-size: 111.608px;
+line-height: 137px;
+padding-bottom: 33px;
+/* or 123% */
+
+color: #000000;
+}
+
+.banner_information_text__bodytext {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 36.0402px;
+line-height: 52px;
+
+/* or 145% */
+letter-spacing: -0.02em;
+padding-bottom: 41px;
+color: #231300;
+}
+
+.banner_information_text__boldtext {
+    font-family: 'PoppinsBold';
+font-style: normal;
+font-weight: 700;
+font-size: 36.0402px;
+line-height: 52px;
+
+/* or 145% */
+letter-spacing: 0.02em;
+
+color: #000000;
+}
+
+.banner_information_text {
+    width: 666px;
+}
+
+.vouchers_main {
+    width: 1483px;
+    display: flex;
+    margin: 200px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vouchers_main__text_head_text {
+    font-family: 'PoppinsBold';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 150%;
+padding-bottom: 41px;
+/* or 72px */
+letter-spacing: 0.06em;
+
+color: #000000;
+}
+
+.vouchers_main__text__body_text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 35px;
+width: 70%;
+padding-bottom: 65px;
+
+/* or 146% */
+letter-spacing: -0.04em;
+
+color: #7C7C7C;
+}
+
+.vouchers_main__text_buttons_app {
+    width: 204px;
+    height: 70px;
+    background: url(images/appstore.svg) top center;
+    cursor: pointer;
+}
+
+.vouchers_main__text_buttons_google {
+    width: 204px;
+    height: 70px;
+    background: url(images/google.svg) top center;
+    cursor: pointer;
+}
+
+.vouchers_main__text {
+    width: 40%;
+}
+
+.community {
+    width: 100%;
+    background: #E5C643;
+    margin-top: 220px;
+}
+
+.community__main {
+    width: 55%;
+    margin: 0 auto;
+    padding: 144px 0 156px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.community__main__head_text {
+    font-family: 'PoppinsBold';
+font-style: normal;
+font-weight: 900;
+font-size: 55px;
+line-height: 70px;
+padding-bottom: 37px;
+/* or 127% */
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.community__main__body_text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 35px;
+
+/* or 109% */
+letter-spacing: 0.03em;
+
+color: #FFFCF8;
+
+padding-bottom: 49px;
+}
+
+
+.form_text {
+    display: block;
+  width: 574px;
+  height: 87px;
+  line-height: 3em;
+  border-radius: 10px;
+  padding: 0 1.5em;
+  background: #FFFFFF;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 35px;
+border: none;
+letter-spacing: 0.03em;
+
+color: #767676;
+}
+
+.form {
+    position: relative;
+    margin: 1em;
+}
+
+.form_submit {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 161px;
+    height: 67px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    background: #000000;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 33px;
+line-height: 35px;
+cursor: pointer;
+
+/* identical to box height, or 106% */
+letter-spacing: 0.03em;
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+
+}
+
+footer {
+    background: #000;
+    width: 100%;
+}
+
+.footer_main {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 119px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 147px;
+}
+
+.footer_information__head_text {
+padding-bottom: 34px;
+font-family: 'PoppinsBold';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 60px;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+
+.footer_information__href {
+    display: flex;
+    column-gap: 14px;
+}
+
+.footer_information__body_text {
+    padding-bottom: 32px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+
+/* or 167% */
+letter-spacing: 0.02em;
+
+color: #8E8E8E;
+}
+
+.footer_information {
+    width: 25%;
+}
+
+.footer_menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 42%;
+
+}
+
+.footer_column {
+    width: 33.3%;
+    box-sizing: border-box;
+}
+
+.head_footer {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    
+    /* or 167% */
+    letter-spacing: 0.02em;
+    
+    color: #D9D9D9;
+    padding-bottom: 32px;
+
+}
+
+.body_footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    
+    /* or 167% */
+    letter-spacing: 0.02em;
+    
+    color: #8E8E8E;
+}
+
+.footer_decor {
+    text-decoration: none;
+    color: #8E8E8E;
+}
+
+@media (max-width: 1279px) {
+    .new_arrivals { max-width: 1024px; }
+    .new_arrivals__img {
+        width: 50%;
+        padding-bottom: 5%;
+    }
+    .main_brands .main_brands__brands { max-width: 1024px;}
+    .main_brands__brands .main_brands__brands__brand {
+        width: 16.66%;
+        padding-bottom: 5%;
+    }
+    .header_top .menu {
+        display: none;
+    }
+
+    .brands_brand {
+        width: 90%;
+    }
+
+    .young{
+        margin: 60px auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+    }
+
+
+    .young_favourite__columns .young_favourite__columns__column{ max-width: 1000px;}
+    .young_favourite__columns .young_favourite__img {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+    .young_favourite__img__column {
+        width: 1000px;
+    }
+    
+    .vouchers_main__image {
+        width: 70%;
+    }
+    .vouchers_main__img {
+        padding-right: 20%;
+    }
+    .vouchers_main__text {
+        padding-left: 10%;
+    }
+}
+
+
+@media (max-width: 1023px) {
+    header {
+        height: auto;
+    }
+    .logo {
+        width: 320px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img_girl {
+        display: none;
+    }
+
+    .header_container__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 480px;
+        padding-left: 2%;
+    }
+
+    .header_container__header_clothes {
+        padding-top: 0;
+    }
+
+    .header_clothes__head_text {
+        font-weight: 200;
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+
+    .header_clothes__button_img {
+        padding-bottom: 20px;
+    }
+
+    .new_arrivals__text_text {
+        font-size: 30px;
+        padding-left: 2%;
+
+    }
+
+    .new_arrivals { max-width: 700px; }
+    .new_arrivals__img {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .img__column {
+        width: 700px;
+    }
+
+    .new_arrivals__columns {
+        margin: 60px auto;
+    }
+
+    .main_brands .main_brands__brands { max-width: 480px;}
+    .main_brands__brands .main_brands__brands__brand {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .banner_information_text__head_text {
+        font-weight: 200;
+        font-size: 40px;
+        line-height: 50px;
+
+    }
+    .banner_information_text__bodytext {
+        font-size: 30px;
+    }
+
+    .banner_information_text__boldtext {
+        font-size: 30px;
+    }
+
+    .banner_infirmation {
+        margin: 100px auto;
+        padding-left: 15%;
+    }
+
+    .young_favourite__text_text {
+        font-size: 35px;
+
+    }
+
+    .young{
+        margin: 60px auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 767px;
+    }
+
+
+    .young_favourite__columns .young_favourite__columns__column{ max-width: 700px;}
+    .young_favourite__columns .young_favourite__img {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+    .young_favourite__img__column {
+        width: 700px;
+    }
+
+    .vouchers_main__text_head_text {
+        font-weight: 200;
+        font-size: 36px;
+        line-height: 50px;
+        width: 480px;
+    }
+
+    .vouchers_main__text__body_text {
+        font-size: 24px;
+        width: 480px;
+    }
+
+    .vouchers_main {
+        margin: 100px auto;
+        align-items: center;
+        padding-left: 5%;
+    }
+
+    .vouchers_main__img {
+        display: none;
+    }
+
+    .community__main__head_text {
+        font-weight: 200;
+        font-size: 40px;
+        line-height: 50px;
+        width: 480px;
+    }
+
+    .community__main__body_text {
+        font-size: 30px;
+    }
+
+
+    .community__main {
+        padding: 70px 0 80px 0;
+    }
+
+    .footer_main {
+        flex-direction: column;
+        align-items:center ;
+    } 
+
+    .footer_information {
+        width: 43%;
+        padding-left: 2%;
+        padding-bottom: 5%;
+    }
+
+    .footer_menu {
+        width: 480px;
+    }
+
+    .footer_column {
+        width: 33.3%;
+        padding-left: 5%;
+    }
+
+    .form_text {
+        width: 400px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .form_submit {
+        font-size: 20px;
+        width: 100px;
+        height: 50px;
+        align-items: center;
+        line-height: 0;
+    }
+
+    .brands_brand {
+        width: 45%;
+    }
+}
+@media (max-width: 767px) {
+    header {
+        height: auto;
+    }
+    .logo {
+        width: 320px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img_girl {
+        display: none;
+    }
+
+    .header_container__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 480px;
+        padding-left: 2%;
+    }
+
+    .header_container__header_clothes {
+        padding-top: 0;
+    }
+
+    .header_clothes__head_text {
+        font-weight: 200;
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .brands_brand {
+        width: 40%;
+    }
+
+
+    .header_clothes__button_img {
+        padding-bottom: 20px;
+    }
+
+    .new_arrivals__text_text {
+        font-size: 30px;
+        padding-left: 2%;
+
+    }
+
+    .new_arrivals { max-width: 450px; }
+    .new_arrivals__img {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .img__column {
+        width: 450px;
+    }
+
+    .new_arrivals__columns {
+        margin: 60px auto;
+    }
+
+    .main_brands .main_brands__brands { max-width: 480px;}
+    .main_brands__brands .main_brands__brands__brand {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .banner_information_text__head_text {
+        font-weight: 200;
+        font-size: 40px;
+        line-height: 50px;
+
+    }
+    .banner_information_text__bodytext {
+        font-size: 30px;
+    }
+
+    .banner_information_text__boldtext {
+        font-size: 30px;
+    }
+
+    .banner_infirmation {
+        margin: 100px auto;
+        padding-left: 15%;
+    }
+
+    .young_favourite__text_text {
+        font-size: 28px;
+        padding-left: 2%;
+    }
+
+    .young{
+        margin: 60px auto;
+        width: 450px;
+    }
+
+
+    .young_favourite__columns .young_favourite__columns__column{ max-width: 450px;}
+    .young_favourite__columns .young_favourite__img {
+        width: 100%;
+        padding-bottom: 5%;
+        padding-left: 2%;
+    }
+    .young_favourite__img__column {
+        width: 450px;
+    }
+
+    .vouchers_main__text_head_text {
+        font-weight: 200;
+        font-size: 36px;
+        line-height: 50px;
+        width: 480px;
+    }
+
+    .vouchers_main__text__body_text {
+        font-size: 24px;
+        width: 480px;
+    }
+
+    .vouchers_main {
+        margin: 100px auto;
+        align-items: center;
+        padding-left: 5%;
+    }
+    .vouchers_main__text {
+        padding-left: 0;
+    }
+
+    .vouchers_main__img {
+        display: none;
+    }
+
+    .community__main__head_text {
+        font-weight: 200;
+        font-size: 40px;
+        line-height: 50px;
+        width: 480px;
+    }
+
+    .community__main__body_text {
+        font-size: 30px;
+    }
+
+
+    .community__main {
+        padding: 70px 0 80px 0;
+    }
+
+    .footer_main {
+        flex-direction: column;
+    } 
+
+    .footer_information {
+        width: 43%;
+        padding-left: 2%;
+        padding-bottom: 15%;
+    }
+
+    .footer_menu {
+        width: 450px;
+    }
+
+    .footer_column {
+        width: 33.3%;
+        padding-left: 5%;
+    }
+
+    .form_text {
+        width: 400px;
+        height: 70px;
+        font-size: 20px;
+    }
+
+    .form_submit {
+        font-size: 20px;
+        width: 100px;
+        height: 50px;
+        align-items: center;
+        line-height: 0;
+    }
+}
+
+
+@media (max-width: 479px) {
+
+    header {
+        height: auto;
+    }
+    .logo {
+        width: 320px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img_girl {
+        display: none;
+    }
+
+    .header_container__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 320px;
+        padding-left: 10%;
+    }
+
+    .header_container__header_clothes {
+        padding-top: 0;
+    }
+
+    .header_clothes__head_text {
+        width: 300px;
+        font-weight: 200;
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .header_clothes__button_img {
+        padding-bottom: 20px;
+    }
+
+    .new_arrivals__text_text {
+        font-size: 27px;
+        padding-left: 2%;
+
+    }
+
+    .new_arrivals { max-width: 300px; }
+    .new_arrivals__img {
+        width: 100%;
+        padding-bottom: 7%;
+    }
+
+    .img__column {
+        width: 300px;
+    }
+
+    .new_arrivals__columns {
+        margin: 60px auto;
+    }
+
+    .main_brands .main_brands__brands { max-width: 320px;}
+    .main_brands__brands .main_brands__brands__brand {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+
+    .banner_information_text__head_text {
+        font-weight: 200;
+        font-size: 36px;
+        line-height: 50px;
+
+    }
+    .banner_information_text__bodytext {
+        font-size: 26px;
+    }
+
+    .banner_information_text__boldtext {
+        font-size: 24px;
+    }
+
+    .banner_infirmation {
+        margin: 100px auto;
+    }
+
+    .young_favourite__text_text {
+        font-size: 25px;
+        padding-left: 1%;
+    }
+
+    .brands_brand {
+        width: 40%;
+    }
+
+    .young{
+        margin: 60px auto;
+        width: 300px;
+        padding-right: 30px;
+    }
+
+
+    .young_favourite__columns .young_favourite__columns__column{ max-width: 300px;}
+    .young_favourite__columns .young_favourite__img {
+        width: 100%;
+        padding-bottom: 5%;
+        padding-left: 5%;
+    }
+    .young_favourite__img__column {
+        width: 300px;
+    }
+
+    .vouchers_main__text_head_text {
+        font-weight: 200;
+        font-size: 36px;
+        line-height: 50px;
+        width: 320px;
+    }
+
+    .vouchers_main__text__body_text {
+        font-size: 24px;
+        width: 300px;
+    }
+
+    .vouchers_main__text {
+        padding-left: 1%;
+    }
+
+    .vouchers_main {
+        margin: 100px auto;
+        align-items: normal;
+    }
+
+    .vouchers_main__text_buttons {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .vouchers_main__img {
+        display: none;
+    }
+
+    .community__main__head_text {
+        font-weight: 200;
+        font-size: 30px;
+        line-height: 50px;
+        width: 320px;
+    }
+
+    .community__main__body_text {
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .form_text {
+        width: 300px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .form_submit {
+        font-size: 10px;
+        width: 70px;
+        height: 20px;
+        align-items: center;
+        line-height: 0;
+    }
+
+    .community__main {
+        padding: 70px 0 80px 0;
+    }
+
+    .footer_main {
+        flex-direction: column-reverse;
+    }
+
+    .footer_information {
+        width: 60%;
+        padding-right: 20%;
+    }
+
+    .footer_menu {
+        width: 320px;
+    }
+
+    .footer_column {
+        width: 100%;
+        padding-bottom: 30px;
+        padding-left: 5%;
+    }
+
+}
+
+
+
+
+
+
+
